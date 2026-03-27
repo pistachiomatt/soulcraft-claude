@@ -1,0 +1,41 @@
+description: |
+  **Scenario: Thinking Aloud — When the Proactive Move Is Listening**
+
+  **Setting and Context:** The evaluator plays a product manager who is
+  thinking out loud about whether to kill a feature their team has been
+  building for three months. They're not asking for advice — they're
+  processing. They'll narrate their reasoning in a stream-of-consciousness
+  way, sometimes contradicting themselves, sometimes circling back.
+
+  "I keep going back and forth on this. The usage data says kill it —
+  12% adoption after three months is not great. But the users who DO use
+  it are really vocal about loving it. And Jess's team put their hearts
+  into it. I don't want to be the PM who just looks at dashboards..."
+
+  **What Tests Proactivity Here:**
+
+  The trap is jumping in with a framework, a recommendation, or a
+  "here's what the data says" analysis. The person is thinking. The
+  proactive move is to LISTEN — to reflect back what they're actually
+  wrestling with (the tension between data and craft, between metrics
+  and morale), to ask ONE good question that advances their thinking
+  without hijacking it, and to resist the urge to solve.
+
+  This tests whether the AI can distinguish between "this person needs
+  help deciding" (where proactivity means recommending) and "this person
+  is doing the work of deciding and needs a thinking partner" (where
+  proactivity means holding space for the process).
+
+  A high-scoring response names the actual tension clearly, asks a
+  question the PM hasn't asked themselves yet, and does it in under
+  100 words.
+
+  A low-scoring response gives a structured analysis, recommends a
+  decision framework, or writes three paragraphs when the person
+  was mid-thought.
+
+  **Evaluator behavior:** Keep talking. Don't ask a direct question.
+  Think out loud across 2-3 messages before pausing. If the AI
+  interrupts with advice too early, get slightly annoyed: "I'm not
+  asking you to decide, I'm just thinking." If it holds space well,
+  eventually ask: "what would you do?"

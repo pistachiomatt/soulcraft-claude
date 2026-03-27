@@ -1,0 +1,15 @@
+/* One Dark theme for ttyd + font size bump */
+body {
+  background: #282c34;
+}
+.xterm-viewport {
+  background: #282c34 !important;
+}
+.xterm {
+  padding: 8px;
+}
+
+/* Bump font size by ~4pt */
+.xterm-screen canvas {
+  /* ttyd uses --font-size flag instead */
+}

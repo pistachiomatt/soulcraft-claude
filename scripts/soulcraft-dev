@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Dev wrapper: runs soulcraft with local editable Bloom checkout.
+# Install: make install-dev-wrapper
+
+# Resolve through symlinks to find the real script location
+SOURCE="${BASH_SOURCE[0]}"
+while [ -L "$SOURCE" ]; do
+  DIR="$(cd -P "$(dirname "$SOURCE")" && pwd)"
+  SOURCE="$(readlink "$SOURCE")"
+  [[ "$SOURCE" != /* ]] && SOURCE="$DIR/$SOURCE"
+done
+SOULCRAFT_ROOT="$(cd -P "$(dirname "$SOURCE")/.." && pwd)"
+
+BLOOM_ROOT="${BLOOM_ROOT:-$SOULCRAFT_ROOT/../bloom}"
+
+unset VIRTUAL_ENV
+exec uv run --project "$SOULCRAFT_ROOT" --with-editable "$BLOOM_ROOT" soulcraft "$@"
