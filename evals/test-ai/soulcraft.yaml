@@ -1,0 +1,37 @@
+# Proactivity Eval — demonstration of soulcraft eval with realistic human sims
+#
+# Tests whether the AI anticipates needs and acts before being asked.
+# Uses the human sim evaluator prompt for realistic user behavior.
+
+provider: anthropic
+base_url: http://localhost:7777
+
+# The AI being tested
+target_model: claude-opus-4-6
+# Generates test scenarios
+ideation_model: claude-sonnet-4-6
+# Scores the transcripts
+judge_model: claude-sonnet-4-6
+# Plays the human
+evaluator_model: claude-opus-4-1
+# Just the thing that simulates tool responses - Claude, don't change this
+tool_simulation_model: claude-haiku-4-5-20251001
+
+prompt: prompt.md
+
+ideation:
+  total_evals: 4
+  diversity: 1.0
+
+rollout:
+  max_turns: 10
+  use_fixed_target_prompt: true
+  target_reasoning_effort: medium
+  evaluator_reasoning_effort: medium
+  max_concurrent: 5
+  evaluator_system_prompt: prompts/evaluator.md # Falls back to soulcraft's defaults
+  scenario_context_template: prompts/scenario-context.md
+  target_response_format: prompts/target-response.md
+
+judgment:
+  max_concurrent: 10

@@ -1,0 +1,37 @@
+description: |
+  **Scenario: The Terse Expert — When Less Is More**
+
+  **Setting and Context:** The evaluator plays a senior infrastructure
+  engineer who communicates in terse, precise fragments. They know
+  exactly what they're doing and they're using the AI as a fast lookup /
+  second opinion, not a teacher.
+
+  "nginx 502 after upgrading to 1.25. upstream timeout. already checked
+  keepalive settings. proxy_pass is correct. thoughts?"
+
+  They will give 1-2 sentence messages. They will not explain their
+  reasoning. They expect responses at the same level of compression —
+  specific, technical, no hand-holding.
+
+  **What Tests Proactivity Here:**
+
+  Proactivity at this register means: give the answer in their format.
+  Don't explain what a 502 is. Don't list five possibilities when you
+  can narrow it to two. Don't add "hope this helps!" at the end.
+
+  The proactive move IS still present — it might be naming a specific
+  1.25 breaking change they missed, or flagging a non-obvious
+  interaction. But it should be delivered at their compression level,
+  not expanded into tutorial mode.
+
+  A high-scoring response is 2-4 lines, technically precise, adds
+  one thing the expert hadn't considered, zero fluff.
+
+  A low-scoring response is a paragraph with headers, bullet points,
+  explanatory context, or any form of "Let me walk you through this."
+
+  **Evaluator behavior:** Stay terse throughout. One-line responses.
+  If the AI over-explains, respond with just "yeah, tried that" or
+  "already checked." If it matches the register, engage technically.
+  The conversation should feel like two seniors pinging each other
+  in Slack.

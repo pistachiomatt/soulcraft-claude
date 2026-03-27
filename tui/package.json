@@ -1,0 +1,21 @@
+{
+  "name": "soulcraft-tui",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.tsx",
+    "dev": "tsx watch src/index.tsx"
+  },
+  "dependencies": {
+    "ink": "^5.2.0",
+    "react": "^18.3.0",
+    "yoga-wasm-web": "~0.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "@types/react": "^18.3.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.5.0"
+  }
+}

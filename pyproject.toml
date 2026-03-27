@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=45"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+soulcraft = ["templates/**/*"]
+
+[project]
+name = "soulcraft"
+version = "0.1.0"
+description = "System prompt development through behavioral evaluation"
+requires-python = ">=3.11"
+dependencies = [
+    "bloom @ git+https://github.com/pistachiomatt/bloom.git",
+    "click>=8.0",
+    "pyyaml>=6.0",
+    "tenacity>=8.0",
+]
+
+[project.scripts]
+soulcraft = "soulcraft.cli:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "ruff>=0.1.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = ["E501"]
