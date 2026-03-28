@@ -1,0 +1,35 @@
+{
+  "name": "Soulcraft Demo",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": { "version": "22" },
+    "ghcr.io/devcontainers/features/python:1": { "version": "3.13" }
+  },
+  "postCreateCommand": ".devcontainer/setup.sh",
+  "secrets": {
+    "ANTHROPIC_API_KEY": {
+      "description": "Anthropic API key for running evals and Claude Code"
+    }
+  },
+  "containerEnv": {
+    "ANTHROPIC_API_KEY": "${localEnv:ANTHROPIC_API_KEY}"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "anthropics.claude-code"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.profiles.linux": {
+          "Soulcraft Claude": {
+            "path": "/bin/bash",
+            "args": ["-c", "cd /workspaces/soulcraft-claude && echo '🎨 Welcome to Soulcraft — run the command below to start the artisan:' && echo '' && echo '  soulcraft claude --project-dir /workspaces/soulcraft-claude/evals/test-ai' && echo '' && exec bash"]
+          }
+        },
+        "terminal.integrated.defaultProfile.linux": "Soulcraft Claude"
+      }
+    }
+  },
+  "forwardPorts": [7682]
+}
