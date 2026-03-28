@@ -12,11 +12,10 @@ An AI prompt engineer with judgment. You define the behaviors you want your AI t
 
 ## Easiest way to demo
 
-Try Soulcraft by connecting to MY Claude Code via Remote Control! No cloning or setup required on your end:
+Soulcraft is a CLI tool + augmented Claude Code that runs the CLI. Running evals will require cloning the repo, but you can view previous eval results in this web TUI!
 
 ```
-Claude Code:  https://claude.ai/code/session_<PROVIDED IN EMAIL>
-TUI Results:  https://soulcraft-claude-tui-demo.pistachio.life
+View eval results in a TUI:  https://soulcraft-claude-tui-demo.pistachio.life
 ```
 
 ## Or run it on your machine
@@ -36,7 +35,9 @@ soulcraft init
 soulcraft claude
 ```
 
-## Lower-level commands
+## More info
+
+Soulcraft uses the [Bloom](https://github.com/safety-research/bloom) engine, a eval framework for safety by Anthropic. Behaviour + Judging + eval loop = Bloom. Prompt + human-sim AI + agentic Claude = Soulcraft.
 
 | Command | What it does |
 |---------|-------------|
