@@ -4,7 +4,6 @@
 # Uses the human sim evaluator prompt for realistic user behavior.
 
 provider: anthropic
-base_url: http://localhost:7777
 
 # The AI being tested
 target_model: claude-opus-4-6
@@ -15,7 +14,7 @@ judge_model: claude-sonnet-4-6
 # Plays the human
 evaluator_model: claude-opus-4-1
 # Just the thing that simulates tool responses - Claude, don't change this
-tool_simulation_model: claude-haiku-4-5-20251001
+tool_simulation_model: claude-sonnet-4-6
 
 prompt: prompt.md
 
