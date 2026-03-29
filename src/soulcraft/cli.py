@@ -233,15 +233,27 @@ def _load_previous_run(project_dir: Path, behavior: str, current_date: str):
 
 def _find_soulcraft_root() -> Path:
     """Find soulcraft's installation root (where soulcraft-claude/ lives)."""
-    # Walk up from this file to find the repo root
+    # Try 1: walk up from this file (works in editable/dev installs)
     here = Path(__file__).resolve()
-    # __file__ is src/soulcraft/cli.py → repo root is 3 levels up
     candidate = here.parent.parent.parent
     if (candidate / "soulcraft-claude").is_dir():
         return candidate
+
+    # Try 2: SOULCRAFT_ROOT env var (for tool installs / codespaces)
+    env_root = os.environ.get("SOULCRAFT_ROOT")
+    if env_root and (Path(env_root) / "soulcraft-claude").is_dir():
+        return Path(env_root)
+
+    # Try 3: check cwd and parents (for running from within the repo)
+    check = Path.cwd()
+    for _ in range(5):
+        if (check / "soulcraft-claude").is_dir():
+            return check
+        check = check.parent
+
     raise FileNotFoundError(
         "Could not find soulcraft-claude/ directory. "
-        "Ensure soulcraft is installed from the git repo, not just pip."
+        "Set SOULCRAFT_ROOT or run from within the soulcraft repo."
     )
 
 

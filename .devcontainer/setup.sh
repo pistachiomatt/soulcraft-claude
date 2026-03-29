@@ -18,6 +18,9 @@ uv tool install /workspaces/soulcraft-claude
 # Install Claude Code CLI
 npm install -g @anthropic-ai/claude-code
 
+# Set SOULCRAFT_ROOT so `soulcraft claude` finds soulcraft-claude/ when installed as a tool
+echo 'export SOULCRAFT_ROOT=/workspaces/soulcraft-claude' >> ~/.bashrc
+
 # Write .env for evals if API key is set
 if [ -n "$ANTHROPIC_API_KEY" ]; then
   echo "ANTHROPIC_API_KEY=$ANTHROPIC_API_KEY" > evals/test-ai/.env
