@@ -15,6 +15,9 @@ cd tui && npm install && cd ..
 # Make soulcraft available globally
 uv tool install /workspaces/soulcraft-claude
 
+# Install Claude Code CLI
+npm install -g @anthropic-ai/claude-code
+
 # Write .env for evals if API key is set
 if [ -n "$ANTHROPIC_API_KEY" ]; then
   echo "ANTHROPIC_API_KEY=$ANTHROPIC_API_KEY" > evals/test-ai/.env

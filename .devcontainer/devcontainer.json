@@ -6,6 +6,7 @@
     "ghcr.io/devcontainers/features/python:1": { "version": "3.13" }
   },
   "postCreateCommand": ".devcontainer/setup.sh",
+  "postStartCommand": "code /workspaces/soulcraft-claude/evals/test-ai/behaviors/proactivity.yaml",
   "secrets": {
     "ANTHROPIC_API_KEY": {
       "description": "Anthropic API key for running evals and Claude Code"
@@ -27,11 +28,9 @@
             "args": ["-c", "cd /workspaces/soulcraft-claude && echo '🎨 Welcome to Soulcraft — run the command below to start the artisan:' && echo '' && echo '  soulcraft claude --project-dir /workspaces/soulcraft-claude/evals/test-ai' && echo '' && exec bash"]
           }
         },
-        "terminal.integrated.defaultLocation": "editor",
-        "chat.enabled": false,
         "workbench.panel.defaultLocation": "right",
         "workbench.startupEditor": "none",
-        "workbench.editorAssociations": {},
+        "chat.enabled": false,
         "explorer.openEditors.visible": 0
       }
     }
