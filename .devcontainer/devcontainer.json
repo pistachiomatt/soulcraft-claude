@@ -6,7 +6,6 @@
     "ghcr.io/devcontainers/features/python:1": { "version": "3.13" }
   },
   "postCreateCommand": ".devcontainer/setup.sh",
-  "postStartCommand": "code /workspaces/soulcraft-claude/evals/test-ai/behaviors/proactivity.yaml",
   "secrets": {
     "ANTHROPIC_API_KEY": {
       "description": "Anthropic API key for running evals and Claude Code"

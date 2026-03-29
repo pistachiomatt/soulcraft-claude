@@ -26,5 +26,8 @@ if [ -n "$ANTHROPIC_API_KEY" ]; then
   echo "ANTHROPIC_API_KEY=$ANTHROPIC_API_KEY" > evals/test-ai/.env
 fi
 
+# Keep-alive: prevent Codespace idle timeout by producing periodic output
+nohup bash -c 'while true; do sleep 300; echo -ne "\033[0K"; done' > /dev/null 2>&1 &
+
 echo ""
 echo "✓ Soulcraft ready. Run: soulcraft claude --project-dir /workspaces/soulcraft-claude/evals/test-ai"
