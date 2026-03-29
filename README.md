@@ -12,11 +12,11 @@ An AI prompt engineer with judgment. You define the behaviors you want your AI t
 
 ## Easiest way to demo
 
-Soulcraft is a CLI tool + augmented Claude Code that runs the CLI. Running evals will require cloning the repo, but you can view previous eval results in this web TUI!
+Soulcraft is a CLI tool + augmented Claude Code that runs the CLI. Here's a zero-click way to demo!
 
-```
-View eval results in a TUI:  https://soulcraft-claude-tui-demo.pistachio.life
-```
+> 👉 [Try the CLI and Claude in a remote VSCode](https://soulcraft-claude-demo.pistachio.life/), password provided in email
+>
+> 👉 [View eval results in a TUI](https://soulcraft-claude-tui-demo.pistachio.life)
 
 ## Or run it on your machine
 
