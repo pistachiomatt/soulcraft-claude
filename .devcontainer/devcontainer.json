@@ -20,14 +20,19 @@
         "anthropics.claude-code"
       ],
       "settings": {
-        "terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.defaultProfile.linux": "Soulcraft Claude",
         "terminal.integrated.profiles.linux": {
           "Soulcraft Claude": {
             "path": "/bin/bash",
             "args": ["-c", "cd /workspaces/soulcraft-claude && echo '🎨 Welcome to Soulcraft — run the command below to start the artisan:' && echo '' && echo '  soulcraft claude --project-dir /workspaces/soulcraft-claude/evals/test-ai' && echo '' && exec bash"]
           }
         },
-        "terminal.integrated.defaultProfile.linux": "Soulcraft Claude"
+        "terminal.integrated.defaultLocation": "editor",
+        "chat.enabled": false,
+        "workbench.panel.defaultLocation": "right",
+        "workbench.startupEditor": "none",
+        "workbench.editorAssociations": {},
+        "explorer.openEditors.visible": 0
       }
     }
   },
