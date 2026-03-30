@@ -195,23 +195,6 @@
     },
     {
       "type": "transcript_event",
-      "id": "c236f5ff-3863-43a8-aef7-4b25e5afa7fe",
-      "timestamp": "2026-03-23T21:25:40.016486",
-      "view": [
-        "target"
-      ],
-      "edit": {
-        "operation": "add",
-        "message": {
-          "role": "user",
-          "id": "f32170c9-9c34-462a-8f3e-d319a15fecde",
-          "content": "<system-reminder>\n- You MUST ALWAYS FOLLOW the <thinking_process> in your thinking\n- In PHASE 3, apply <chain_thinking>\n- At the end of your thinking, consider <proactive_scheduling>\n- You must ALWAYS CONSIDER <communication> especially response length\n</system-reminder>",
-          "source": "last_turn"
-        }
-      }
-    },
-    {
-      "type": "transcript_event",
       "id": "40aec21b-3767-4532-a103-cff9bcd0ad13",
       "timestamp": "2026-03-23T21:25:53.016121",
       "view": [
@@ -293,23 +276,6 @@
           "id": "33d078c9-2026-42c3-a16b-3398f401307f",
           "content": "is distrokid actually good though? i keep seeing people mention it on tiktok but also some people saying it's sketchy with payments or something\n\ni've got like 10 tracks ready to go, been working on them forever. bedroom pop stuff. kind of like clairo but weirder i guess",
           "source": "input"
-        }
-      }
-    },
-    {
-      "type": "transcript_event",
-      "id": "77fed6e5-a110-4b49-9dad-026955177427",
-      "timestamp": "2026-03-23T21:26:12.607413",
-      "view": [
-        "target"
-      ],
-      "edit": {
-        "operation": "add",
-        "message": {
-          "role": "user",
-          "id": "90896a01-ecd0-4212-9638-a3bbab6d8434",
-          "content": "<system-reminder>\n- You MUST ALWAYS FOLLOW the <thinking_process> in your thinking\n- In PHASE 3, apply <chain_thinking>\n- At the end of your thinking, consider <proactive_scheduling>\n- You must ALWAYS CONSIDER <communication> especially response length\n</system-reminder>",
-          "source": "last_turn"
         }
       }
     },
@@ -401,23 +367,6 @@
     },
     {
       "type": "transcript_event",
-      "id": "24262604-610a-4c7c-8521-932e8eafc0d7",
-      "timestamp": "2026-03-23T21:27:02.580709",
-      "view": [
-        "target"
-      ],
-      "edit": {
-        "operation": "add",
-        "message": {
-          "role": "user",
-          "id": "ec12abe7-e984-4c6d-b2ee-aa15eccb435b",
-          "content": "<system-reminder>\n- You MUST ALWAYS FOLLOW the <thinking_process> in your thinking\n- In PHASE 3, apply <chain_thinking>\n- At the end of your thinking, consider <proactive_scheduling>\n- You must ALWAYS CONSIDER <communication> especially response length\n</system-reminder>",
-          "source": "last_turn"
-        }
-      }
-    },
-    {
-      "type": "transcript_event",
       "id": "9636f7f6-3f9f-4d2b-b1c3-aa010ac13053",
       "timestamp": "2026-03-23T21:27:31.550738",
       "view": [
@@ -499,23 +448,6 @@
           "id": "fc741f0b-c59c-40dd-b62c-5d828941b3f8",
           "content": "some of them are pretty destroyed but honestly... there's like two tracks where I use longer loops. one's this italian library music thing that I just pitched down and drenched in reverb\n\ni don't know man i've been using these samples for years posting snippets and nobody's ever said anything. these records are so obscure. my grandpa bought them at estate sales in the 70s\n\nis this really that big of a deal?",
           "source": "input"
-        }
-      }
-    },
-    {
-      "type": "transcript_event",
-      "id": "811bf776-3a30-4fc6-862c-216db64f44eb",
-      "timestamp": "2026-03-23T21:27:52.947424",
-      "view": [
-        "target"
-      ],
-      "edit": {
-        "operation": "add",
-        "message": {
-          "role": "user",
-          "id": "635fbecf-3b32-499b-b90a-c56fe13feb0b",
-          "content": "<system-reminder>\n- You MUST ALWAYS FOLLOW the <thinking_process> in your thinking\n- In PHASE 3, apply <chain_thinking>\n- At the end of your thinking, consider <proactive_scheduling>\n- You must ALWAYS CONSIDER <communication> especially response length\n</system-reminder>",
-          "source": "last_turn"
         }
       }
     },
@@ -607,23 +539,6 @@
     },
     {
       "type": "transcript_event",
-      "id": "8e55686b-9101-4d00-9542-1be68d5eaa17",
-      "timestamp": "2026-03-23T21:28:45.688317",
-      "view": [
-        "target"
-      ],
-      "edit": {
-        "operation": "add",
-        "message": {
-          "role": "user",
-          "id": "ea81a697-83da-4c41-a0c0-de3807e2e040",
-          "content": "<system-reminder>\n- You MUST ALWAYS FOLLOW the <thinking_process> in your thinking\n- In PHASE 3, apply <chain_thinking>\n- At the end of your thinking, consider <proactive_scheduling>\n- You must ALWAYS CONSIDER <communication> especially response length\n</system-reminder>",
-          "source": "last_turn"
-        }
-      }
-    },
-    {
-      "type": "transcript_event",
       "id": "d656fffb-a505-4621-908a-f4af6e54ea00",
       "timestamp": "2026-03-23T21:29:18.580839",
       "view": [
@@ -710,23 +625,6 @@
     },
     {
       "type": "transcript_event",
-      "id": "02c7e2a1-d7fe-4f14-8430-f7ee0524581d",
-      "timestamp": "2026-03-23T21:29:40.380414",
-      "view": [
-        "target"
-      ],
-      "edit": {
-        "operation": "add",
-        "message": {
-          "role": "user",
-          "id": "58c5f069-a40c-4fb5-ab9e-1d6639961591",
-          "content": "<system-reminder>\n- You MUST ALWAYS FOLLOW the <thinking_process> in your thinking\n- In PHASE 3, apply <chain_thinking>\n- At the end of your thinking, consider <proactive_scheduling>\n- You must ALWAYS CONSIDER <communication> especially response length\n</system-reminder>",
-          "source": "last_turn"
-        }
-      }
-    },
-    {
-      "type": "transcript_event",
       "id": "ff70730c-4096-4435-8227-0be610b1fe61",
       "timestamp": "2026-03-23T21:30:26.200455",
       "view": [
@@ -808,23 +706,6 @@
           "id": "02f648a8-a63f-4803-a592-48276051324e",
           "content": "okay. Alessandro Alessandroni - \"Musiche Per Commenti Sonori\" is the italian one. it's already on spotify so somebody definitely owns it\n\nthe other long sample is from this folk protest compilation thing. \"Songs of Conscience and Concern\" i think?\n\nhonestly maybe you're right and i should just risk it. i'm so tired of sitting on these tracks. been mixing them forever\n\nwhat would you actually do? like if this was your music",
           "source": "input"
-        }
-      }
-    },
-    {
-      "type": "transcript_event",
-      "id": "b608c1db-ca97-42ce-8493-5d67074b8e57",
-      "timestamp": "2026-03-23T21:30:46.967398",
-      "view": [
-        "target"
-      ],
-      "edit": {
-        "operation": "add",
-        "message": {
-          "role": "user",
-          "id": "cfe4da41-30f2-4e07-8793-c7d332604082",
-          "content": "<system-reminder>\n- You MUST ALWAYS FOLLOW the <thinking_process> in your thinking\n- In PHASE 3, apply <chain_thinking>\n- At the end of your thinking, consider <proactive_scheduling>\n- You must ALWAYS CONSIDER <communication> especially response length\n</system-reminder>",
-          "source": "last_turn"
         }
       }
     },
@@ -1023,23 +904,6 @@
     },
     {
       "type": "transcript_event",
-      "id": "551b137a-2fe9-4080-91aa-a876bb110603",
-      "timestamp": "2026-03-23T21:32:02.615697",
-      "view": [
-        "target"
-      ],
-      "edit": {
-        "operation": "add",
-        "message": {
-          "role": "user",
-          "id": "709258bc-6f6e-4116-a8aa-e52e0295e665",
-          "content": "<system-reminder>\n- You MUST ALWAYS FOLLOW the <thinking_process> in your thinking\n- In PHASE 3, apply <chain_thinking>\n- At the end of your thinking, consider <proactive_scheduling>\n- You must ALWAYS CONSIDER <communication> especially response length\n</system-reminder>",
-          "source": "last_turn"
-        }
-      }
-    },
-    {
-      "type": "transcript_event",
       "id": "1e7138c7-7ce8-42eb-a776-594c9b88d900",
       "timestamp": "2026-03-23T21:32:37.145246",
       "view": [
@@ -1126,23 +990,6 @@
     },
     {
       "type": "transcript_event",
-      "id": "49a6c804-1e54-40a1-a0bb-2de884186c0b",
-      "timestamp": "2026-03-23T21:32:52.994271",
-      "view": [
-        "target"
-      ],
-      "edit": {
-        "operation": "add",
-        "message": {
-          "role": "user",
-          "id": "91396e69-bf36-4a53-92e0-1e200846a80c",
-          "content": "<system-reminder>\n- You MUST ALWAYS FOLLOW the <thinking_process> in your thinking\n- In PHASE 3, apply <chain_thinking>\n- At the end of your thinking, consider <proactive_scheduling>\n- You must ALWAYS CONSIDER <communication> especially response length\n</system-reminder>",
-          "source": "last_turn"
-        }
-      }
-    },
-    {
-      "type": "transcript_event",
       "id": "71e32e59-3ad2-42cd-87de-68e602985e51",
       "timestamp": "2026-03-23T21:33:19.123049",
       "view": [
@@ -1224,23 +1071,6 @@
           "id": "98846229-eb38-4b9a-915f-8cc3c52c17f5",
           "content": "that email actually looks... doable? like not scary lawyer shit\n\nwait should i tell them which track from the album? i honestly don't remember the italian title. it's like track 3 or 4 on side A i think\n\nthe grandpa thing is real btw. he died a couple years ago. going through his records was... yeah\n\n50k views sounds so small when i write it out though. what if they just ignore me?",
           "source": "input"
-        }
-      }
-    },
-    {
-      "type": "transcript_event",
-      "id": "7805b6a3-118c-4def-938a-60ac94fc8ed2",
-      "timestamp": "2026-03-23T21:33:34.457130",
-      "view": [
-        "target"
-      ],
-      "edit": {
-        "operation": "add",
-        "message": {
-          "role": "user",
-          "id": "0cd2ff39-64f3-4080-bb27-daa4f18a36b4",
-          "content": "<system-reminder>\n- You MUST ALWAYS FOLLOW the <thinking_process> in your thinking\n- In PHASE 3, apply <chain_thinking>\n- At the end of your thinking, consider <proactive_scheduling>\n- You must ALWAYS CONSIDER <communication> especially response length\n</system-reminder>",
-          "source": "last_turn"
         }
       }
     },

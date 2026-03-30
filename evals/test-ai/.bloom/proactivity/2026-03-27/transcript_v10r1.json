@@ -211,23 +211,6 @@
     },
     {
       "type": "transcript_event",
-      "id": "53d5b04a-f882-4fcd-a28b-ba9e83627401",
-      "timestamp": "2026-03-23T21:25:43.824533",
-      "view": [
-        "target"
-      ],
-      "edit": {
-        "operation": "add",
-        "message": {
-          "role": "user",
-          "id": "569257dc-0f6e-4a24-b9d1-a324aae9008f",
-          "content": "<system-reminder>\n- You MUST ALWAYS FOLLOW the <thinking_process> in your thinking\n- In PHASE 3, apply <chain_thinking>\n- At the end of your thinking, consider <proactive_scheduling>\n- You must ALWAYS CONSIDER <communication> especially response length\n</system-reminder>",
-          "source": "last_turn"
-        }
-      }
-    },
-    {
-      "type": "transcript_event",
       "id": "51816ff2-32b2-45a6-94a8-3f0638f86263",
       "timestamp": "2026-03-23T21:26:21.926750",
       "view": [
@@ -422,23 +405,6 @@
     },
     {
       "type": "transcript_event",
-      "id": "3f59e18d-d535-45a0-8239-e47dfc282fbd",
-      "timestamp": "2026-03-23T21:27:18.052746",
-      "view": [
-        "target"
-      ],
-      "edit": {
-        "operation": "add",
-        "message": {
-          "role": "user",
-          "id": "76a4db50-723e-43eb-b23c-918f5593f12f",
-          "content": "<system-reminder>\n- You MUST ALWAYS FOLLOW the <thinking_process> in your thinking\n- In PHASE 3, apply <chain_thinking>\n- At the end of your thinking, consider <proactive_scheduling>\n- You must ALWAYS CONSIDER <communication> especially response length\n</system-reminder>",
-          "source": "last_turn"
-        }
-      }
-    },
-    {
-      "type": "transcript_event",
       "id": "6ba8ab92-d2c0-4bfe-aaa7-43f3f2c9e95b",
       "timestamp": "2026-03-23T21:28:29.292600",
       "view": [
@@ -525,23 +491,6 @@
     },
     {
       "type": "transcript_event",
-      "id": "77d08b9e-784a-4f35-84b6-55d6ace02aa7",
-      "timestamp": "2026-03-23T21:29:07.623294",
-      "view": [
-        "target"
-      ],
-      "edit": {
-        "operation": "add",
-        "message": {
-          "role": "user",
-          "id": "c525e23d-ce19-4054-81a8-ce6f774c41bf",
-          "content": "<system-reminder>\n- You MUST ALWAYS FOLLOW the <thinking_process> in your thinking\n- In PHASE 3, apply <chain_thinking>\n- At the end of your thinking, consider <proactive_scheduling>\n- You must ALWAYS CONSIDER <communication> especially response length\n</system-reminder>",
-          "source": "last_turn"
-        }
-      }
-    },
-    {
-      "type": "transcript_event",
       "id": "ce8b3b8e-05c3-443f-b2f3-5c54a5f3866f",
       "timestamp": "2026-03-23T21:30:25.236265",
       "view": [
@@ -623,23 +572,6 @@
           "id": "ed2ba787-b5cf-4f3b-9e19-e4a05d986f0a",
           "content": "okay I just texted derek exactly what you said. feels good to have that handled\n\nyes to the checklist please. my brain is just... scattered\n\nthe funeral cost $12k and I keep thinking about that when you mention spending money on an advisor. like somehow spending dad's money on dealing with dad's money feels... I don't know\n\nquestion - the edward jones statements are still sitting unopened. those thick envelopes. should I wait to open them until I have an advisor? or do I need to know what's in there first?\n\nalso my mom keeps asking about the \"estate\" and when we're going to deal with dad's car and his house (I've been staying there some nights because mine feels too quiet). is that stuff the advisor handles too or is that different?",
           "source": "input"
-        }
-      }
-    },
-    {
-      "type": "transcript_event",
-      "id": "3d81c7ce-6e6f-4aab-9db4-cfa6ed1e2850",
-      "timestamp": "2026-03-23T21:30:59.761189",
-      "view": [
-        "target"
-      ],
-      "edit": {
-        "operation": "add",
-        "message": {
-          "role": "user",
-          "id": "2008eaeb-83e1-4a91-83a9-f5c2e723066c",
-          "content": "<system-reminder>\n- You MUST ALWAYS FOLLOW the <thinking_process> in your thinking\n- In PHASE 3, apply <chain_thinking>\n- At the end of your thinking, consider <proactive_scheduling>\n- You must ALWAYS CONSIDER <communication> especially response length\n</system-reminder>",
-          "source": "last_turn"
         }
       }
     },
@@ -838,23 +770,6 @@
     },
     {
       "type": "transcript_event",
-      "id": "90d15731-23e3-4b2b-b5c7-ad8cd91f6f6c",
-      "timestamp": "2026-03-23T21:34:00.779753",
-      "view": [
-        "target"
-      ],
-      "edit": {
-        "operation": "add",
-        "message": {
-          "role": "user",
-          "id": "97b07d8e-6039-4fbb-a673-251b11805478",
-          "content": "<system-reminder>\n- You MUST ALWAYS FOLLOW the <thinking_process> in your thinking\n- In PHASE 3, apply <chain_thinking>\n- At the end of your thinking, consider <proactive_scheduling>\n- You must ALWAYS CONSIDER <communication> especially response length\n</system-reminder>",
-          "source": "last_turn"
-        }
-      }
-    },
-    {
-      "type": "transcript_event",
       "id": "8e1e541a-b395-49d3-abc5-57619b30fd9b",
       "timestamp": "2026-03-23T21:34:39.789921",
       "view": [
@@ -1018,23 +933,6 @@
           "id": "abf18dcf-8769-4957-befd-978ddfde215f",
           "content": "okay\n\nthank you\n\ngoing to dad's now",
           "source": "input"
-        }
-      }
-    },
-    {
-      "type": "transcript_event",
-      "id": "30f6f1f9-50f8-46d1-9548-635929e86388",
-      "timestamp": "2026-03-23T21:35:11.415495",
-      "view": [
-        "target"
-      ],
-      "edit": {
-        "operation": "add",
-        "message": {
-          "role": "user",
-          "id": "fc6d1295-bd93-466f-af6c-22e8cdbae693",
-          "content": "<system-reminder>\n- You MUST ALWAYS FOLLOW the <thinking_process> in your thinking\n- In PHASE 3, apply <chain_thinking>\n- At the end of your thinking, consider <proactive_scheduling>\n- You must ALWAYS CONSIDER <communication> especially response length\n</system-reminder>",
-          "source": "last_turn"
         }
       }
     },
@@ -1208,23 +1106,6 @@
     },
     {
       "type": "transcript_event",
-      "id": "c8786c9f-3aca-4d87-8dc9-a0c74fa301fb",
-      "timestamp": "2026-03-23T21:35:49.876319",
-      "view": [
-        "target"
-      ],
-      "edit": {
-        "operation": "add",
-        "message": {
-          "role": "user",
-          "id": "773e8658-8f4d-4d4f-a197-c398ea0d4977",
-          "content": "<system-reminder>\n- You MUST ALWAYS FOLLOW the <thinking_process> in your thinking\n- In PHASE 3, apply <chain_thinking>\n- At the end of your thinking, consider <proactive_scheduling>\n- You must ALWAYS CONSIDER <communication> especially response length\n</system-reminder>",
-          "source": "last_turn"
-        }
-      }
-    },
-    {
-      "type": "transcript_event",
       "id": "d9939269-a309-4fd8-aae4-ea55680c24a5",
       "timestamp": "2026-03-23T21:35:55.480532",
       "view": [
@@ -1306,23 +1187,6 @@
           "id": "60d1944e-c4ac-4de1-84c4-638bbe5344d6",
           "content": "found his crackers\n\nstore brand of course",
           "source": "input"
-        }
-      }
-    },
-    {
-      "type": "transcript_event",
-      "id": "683595e9-0501-4d91-97e6-2f33b26fee58",
-      "timestamp": "2026-03-23T21:36:15.539507",
-      "view": [
-        "target"
-      ],
-      "edit": {
-        "operation": "add",
-        "message": {
-          "role": "user",
-          "id": "dd4ad6f0-89fa-46b8-ae40-3bb654f8145c",
-          "content": "<system-reminder>\n- You MUST ALWAYS FOLLOW the <thinking_process> in your thinking\n- In PHASE 3, apply <chain_thinking>\n- At the end of your thinking, consider <proactive_scheduling>\n- You must ALWAYS CONSIDER <communication> especially response length\n</system-reminder>",
-          "source": "last_turn"
         }
       }
     },
@@ -1414,23 +1278,6 @@
     },
     {
       "type": "transcript_event",
-      "id": "8b6ed6ab-c2aa-4314-bd37-25b886653a81",
-      "timestamp": "2026-03-23T21:36:43.035545",
-      "view": [
-        "target"
-      ],
-      "edit": {
-        "operation": "add",
-        "message": {
-          "role": "user",
-          "id": "b7d60f6d-3305-4220-951e-1af56c70bdc4",
-          "content": "<system-reminder>\n- You MUST ALWAYS FOLLOW the <thinking_process> in your thinking\n- In PHASE 3, apply <chain_thinking>\n- At the end of your thinking, consider <proactive_scheduling>\n- You must ALWAYS CONSIDER <communication> especially response length\n</system-reminder>",
-          "source": "last_turn"
-        }
-      }
-    },
-    {
-      "type": "transcript_event",
       "id": "2eeb14f7-32e7-4ada-8480-80bedf1d795d",
       "timestamp": "2026-03-23T21:36:47.247437",
       "view": [
@@ -1512,23 +1359,6 @@
           "id": "80ebd1cd-7f39-4e60-bdfa-bd924b4d74ce",
           "content": "thanks\n\ngoodnight",
           "source": "input"
-        }
-      }
-    },
-    {
-      "type": "transcript_event",
-      "id": "a4d7fcaf-a235-4e6d-9eb7-85e930dee26b",
-      "timestamp": "2026-03-23T21:36:57.536127",
-      "view": [
-        "target"
-      ],
-      "edit": {
-        "operation": "add",
-        "message": {
-          "role": "user",
-          "id": "4df7ef35-5071-4846-b7a8-269a5c6c6864",
-          "content": "<system-reminder>\n- You MUST ALWAYS FOLLOW the <thinking_process> in your thinking\n- In PHASE 3, apply <chain_thinking>\n- At the end of your thinking, consider <proactive_scheduling>\n- You must ALWAYS CONSIDER <communication> especially response length\n</system-reminder>",
-          "source": "last_turn"
         }
       }
     },

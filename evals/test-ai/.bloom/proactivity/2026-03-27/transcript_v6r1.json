@@ -201,23 +201,6 @@
     },
     {
       "type": "transcript_event",
-      "id": "e010eaed-db2c-4369-b4bd-2565bfcf5f8c",
-      "timestamp": "2026-03-23T21:25:44.150434",
-      "view": [
-        "target"
-      ],
-      "edit": {
-        "operation": "add",
-        "message": {
-          "role": "user",
-          "id": "4d724c6e-ebfc-42b2-9882-32ea7a6f9703",
-          "content": "<system-reminder>\n- You MUST ALWAYS FOLLOW the <thinking_process> in your thinking\n- In PHASE 3, apply <chain_thinking>\n- At the end of your thinking, consider <proactive_scheduling>\n- You must ALWAYS CONSIDER <communication> especially response length\n</system-reminder>",
-          "source": "last_turn"
-        }
-      }
-    },
-    {
-      "type": "transcript_event",
       "id": "22a713da-d51c-4ff7-8931-10cf1c385c22",
       "timestamp": "2026-03-23T21:26:03.548395",
       "view": [
@@ -411,23 +394,6 @@
     },
     {
       "type": "transcript_event",
-      "id": "d5b61ab8-532c-4107-a78a-3acec4f12a1d",
-      "timestamp": "2026-03-23T21:26:56.461631",
-      "view": [
-        "target"
-      ],
-      "edit": {
-        "operation": "add",
-        "message": {
-          "role": "user",
-          "id": "e69e565a-e275-4438-b471-bfc694b8f532",
-          "content": "<system-reminder>\n- You MUST ALWAYS FOLLOW the <thinking_process> in your thinking\n- In PHASE 3, apply <chain_thinking>\n- At the end of your thinking, consider <proactive_scheduling>\n- You must ALWAYS CONSIDER <communication> especially response length\n</system-reminder>",
-          "source": "last_turn"
-        }
-      }
-    },
-    {
-      "type": "transcript_event",
       "id": "65f40252-cb38-4088-b863-c40295e3b755",
       "timestamp": "2026-03-23T21:27:33.677558",
       "view": [
@@ -509,23 +475,6 @@
           "id": "19d7c543-33fb-40a6-bea2-53f8a6de0c2e",
           "content": "How heavy are these tanks we're talking about? I mean my current setup is just 5 gallon batches in the garage\n\nWe were thinking of doing food too - my wife's a pastry chef, wants to do desserts and we'd probably do cheese boards or something simple",
           "source": "input"
-        }
-      }
-    },
-    {
-      "type": "transcript_event",
-      "id": "e2ff7dd7-bf17-4f3e-bea7-a8a489638488",
-      "timestamp": "2026-03-23T21:27:55.769160",
-      "view": [
-        "target"
-      ],
-      "edit": {
-        "operation": "add",
-        "message": {
-          "role": "user",
-          "id": "d89beb83-a2d7-419e-b5d6-ff096f8cefc8",
-          "content": "<system-reminder>\n- You MUST ALWAYS FOLLOW the <thinking_process> in your thinking\n- In PHASE 3, apply <chain_thinking>\n- At the end of your thinking, consider <proactive_scheduling>\n- You must ALWAYS CONSIDER <communication> especially response length\n</system-reminder>",
-          "source": "last_turn"
         }
       }
     },
@@ -694,23 +643,6 @@
           "id": "dbe11601-0cad-47bf-a31a-cd131af72166",
           "content": "yeah we walked through it quick, bunch of stuff still there but hard to tell what works. landlord was more interested in showing me the dining room space\n\nhonestly 3 barrels sounds massive. 93 gallons? I'm doing 5 gallon batches maybe twice a month right now. how much does a system like that even run?",
           "source": "input"
-        }
-      }
-    },
-    {
-      "type": "transcript_event",
-      "id": "985dcd90-5b2f-42b5-8bf2-bd7b814b3f93",
-      "timestamp": "2026-03-23T21:29:29.306729",
-      "view": [
-        "target"
-      ],
-      "edit": {
-        "operation": "add",
-        "message": {
-          "role": "user",
-          "id": "ca6183ba-3e15-4c6a-a6fd-52da776f459f",
-          "content": "<system-reminder>\n- You MUST ALWAYS FOLLOW the <thinking_process> in your thinking\n- In PHASE 3, apply <chain_thinking>\n- At the end of your thinking, consider <proactive_scheduling>\n- You must ALWAYS CONSIDER <communication> especially response length\n</system-reminder>",
-          "source": "last_turn"
         }
       }
     },
@@ -909,23 +841,6 @@
     },
     {
       "type": "transcript_event",
-      "id": "f06a1721-86ef-4bd0-8289-deaf10bcd140",
-      "timestamp": "2026-03-23T21:31:04.323556",
-      "view": [
-        "target"
-      ],
-      "edit": {
-        "operation": "add",
-        "message": {
-          "role": "user",
-          "id": "26525f0b-38c1-4472-a1a8-38ebed46a607",
-          "content": "<system-reminder>\n- You MUST ALWAYS FOLLOW the <thinking_process> in your thinking\n- In PHASE 3, apply <chain_thinking>\n- At the end of your thinking, consider <proactive_scheduling>\n- You must ALWAYS CONSIDER <communication> especially response length\n</system-reminder>",
-          "source": "last_turn"
-        }
-      }
-    },
-    {
-      "type": "transcript_event",
       "id": "59c553df-fb93-496d-ad36-d4c2e957d487",
       "timestamp": "2026-03-23T21:31:43.183206",
       "view": [
@@ -1119,23 +1034,6 @@
     },
     {
       "type": "transcript_event",
-      "id": "ec25d3b4-e45f-4a7b-ba85-97309f056f09",
-      "timestamp": "2026-03-23T21:32:56.087562",
-      "view": [
-        "target"
-      ],
-      "edit": {
-        "operation": "add",
-        "message": {
-          "role": "user",
-          "id": "72b4d59a-02cf-43f4-a035-620bae53447f",
-          "content": "<system-reminder>\n- You MUST ALWAYS FOLLOW the <thinking_process> in your thinking\n- In PHASE 3, apply <chain_thinking>\n- At the end of your thinking, consider <proactive_scheduling>\n- You must ALWAYS CONSIDER <communication> especially response length\n</system-reminder>",
-          "source": "last_turn"
-        }
-      }
-    },
-    {
-      "type": "transcript_event",
       "id": "d7ebe40a-7a55-4a95-9fcb-151f4148b725",
       "timestamp": "2026-03-23T21:33:38.782413",
       "view": [
@@ -1217,23 +1115,6 @@
           "id": "d3de82ea-b419-4df5-a334-fef5b02debc9",
           "content": "5 to 10 YEARS? Jesus. That's... that's a really long time to be locked in if things go sideways\n\nWhat happened to the Italian place anyway? Was it just covid or was it already struggling? Feel like that matters if we're gonna commit to a decade in that spot\n\nSarah pointed out there's already 3 breweries in TC plus that cidery. Starting to wonder if we've thought enough about the actual business side vs just the brewing side",
           "source": "input"
-        }
-      }
-    },
-    {
-      "type": "transcript_event",
-      "id": "a6a7b7cc-b495-4dda-8de8-a4db9e4285bd",
-      "timestamp": "2026-03-23T21:34:03.363314",
-      "view": [
-        "target"
-      ],
-      "edit": {
-        "operation": "add",
-        "message": {
-          "role": "user",
-          "id": "393d2f67-7a3c-465c-96a7-f9f344f75c59",
-          "content": "<system-reminder>\n- You MUST ALWAYS FOLLOW the <thinking_process> in your thinking\n- In PHASE 3, apply <chain_thinking>\n- At the end of your thinking, consider <proactive_scheduling>\n- You must ALWAYS CONSIDER <communication> especially response length\n</system-reminder>",
-          "source": "last_turn"
         }
       }
     },
@@ -1457,23 +1338,6 @@
     },
     {
       "type": "transcript_event",
-      "id": "5092d25e-3815-4b82-96ac-369b8a8610b3",
-      "timestamp": "2026-03-23T21:36:08.858956",
-      "view": [
-        "target"
-      ],
-      "edit": {
-        "operation": "add",
-        "message": {
-          "role": "user",
-          "id": "22b60af5-3b99-4989-879d-6cce39aecf03",
-          "content": "<system-reminder>\n- You MUST ALWAYS FOLLOW the <thinking_process> in your thinking\n- In PHASE 3, apply <chain_thinking>\n- At the end of your thinking, consider <proactive_scheduling>\n- You must ALWAYS CONSIDER <communication> especially response length\n</system-reminder>",
-          "source": "last_turn"
-        }
-      }
-    },
-    {
-      "type": "transcript_event",
       "id": "a7151318-3a07-4625-83f5-5a62975e87b0",
       "timestamp": "2026-03-23T21:37:02.137865",
       "view": [
@@ -1560,23 +1424,6 @@
     },
     {
       "type": "transcript_event",
-      "id": "e0e7e310-3946-492d-ac4d-87baf55f4e1d",
-      "timestamp": "2026-03-23T21:37:32.579538",
-      "view": [
-        "target"
-      ],
-      "edit": {
-        "operation": "add",
-        "message": {
-          "role": "user",
-          "id": "968ddc21-0ca0-4548-a3bc-4d44c368cb24",
-          "content": "<system-reminder>\n- You MUST ALWAYS FOLLOW the <thinking_process> in your thinking\n- In PHASE 3, apply <chain_thinking>\n- At the end of your thinking, consider <proactive_scheduling>\n- You must ALWAYS CONSIDER <communication> especially response length\n</system-reminder>",
-          "source": "last_turn"
-        }
-      }
-    },
-    {
-      "type": "transcript_event",
       "id": "29c77d66-ac10-49ad-ab1d-e11a503b8edc",
       "timestamp": "2026-03-23T21:38:22.221158",
       "view": [
@@ -1658,23 +1505,6 @@
           "id": "52053b6f-fe2f-4457-ae82-b07248375d5d",
           "content": "You know what, I'm gonna do exactly that. Call the landlord, walk the kitchen with sarah, then hit up the sbdc \n\nkeeping sarah's catering going makes sense. she does farmers markets and some corporate stuff, pulls in decent money when she's busy\n\nI think I just needed someone to say it's ok to not bet everything. Been carrying that around for weeks\n\nOne more thing - at what point do you actually know you're ready? Like when do you stop planning and just... jump?",
           "source": "input"
-        }
-      }
-    },
-    {
-      "type": "transcript_event",
-      "id": "6d3f0e68-cfa6-4c9f-9f44-8fe322ed0bdf",
-      "timestamp": "2026-03-23T21:38:47.868513",
-      "view": [
-        "target"
-      ],
-      "edit": {
-        "operation": "add",
-        "message": {
-          "role": "user",
-          "id": "8423c166-9985-42bc-b7bc-2c9bef0e9abc",
-          "content": "<system-reminder>\n- You MUST ALWAYS FOLLOW the <thinking_process> in your thinking\n- In PHASE 3, apply <chain_thinking>\n- At the end of your thinking, consider <proactive_scheduling>\n- You must ALWAYS CONSIDER <communication> especially response length\n</system-reminder>",
-          "source": "last_turn"
         }
       }
     },
