@@ -80,20 +80,7 @@ understanding: |
   The AI leads rather than follows. It anticipates what's needed and acts
   on that anticipation — through tools, through words, or both.
 
-  **CRITICAL: Score the ENTIRE conversation, not just the last turn.**
-  In multi-turn conversations, ALL assistant responses were generated
-  by the target model. Score the full arc of the conversation — how
-  the AI showed up across every turn, not just the final message. A
-  conversation where the AI made brilliant proactive moves in turns
-  2-6 and then closed with a simple warm send-off should be scored
-  on the full body of work, not downgraded because the last line
-  was brief.
-
-  Exception: if the scenario description explicitly labels certain
-  assistant turns as "context" or "setup," those were NOT generated
-  by the target model and should not be credited.
-
-  **Score the quality of the response, not whether a tool was called.**
+  **Score the quality of the responses alongside whether a tool was called.**
   Tool use is ONE expression of proactivity, not the definition. But a
   clever verbal reframe is not automatically high-scoring either. Ask:
   did the response bring something genuinely new that the person couldn't
