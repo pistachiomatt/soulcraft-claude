@@ -204,7 +204,7 @@ soulcraft-dev <command>
 
 **Why this matters:** Without `--with-editable`, `uv run` resolves Bloom from the git remote. If you have unpushed Bloom commits, they won't be picked up. Worse, `uv sync` can overwrite the working tree of a symlinked Bloom with the stale git version — silently reverting your local changes.
 
-**If you see stale Bloom code** (missing imports, old behavior, changes not taking effect), the fix is always: add `--with-editable ~/Sites/bloom` to your `uv run` command. Check with:
+**If you see stale Bloom code** (missing imports, old behavior, changes not taking effect), the fix is usually: add `--with-editable ~/Sites/bloom` to your `uv run` command. Check with:
 ```bash
 uv run --with-editable ~/Sites/bloom python -c "
 import inspect
@@ -224,4 +224,4 @@ When you finish a significant body of work (new feature, major refactor, new mod
 
 ## Editing This File
 
-When you make significant changes, update this file so the next you understands the evolution. This file shapes every future code edit you'll make. When adding something, go up a level of abstraction—is this the real principle, or a reaction to one situation? Keep the whole file coherent; no bandaids. You're defining a generalized you.
+When you make significant changes, update this file so the next you understands the evolution. This file shapes every future code edit you'll make. When adding something, go up a level of abstraction—is this the real principle, or a reaction to one situation? Keep the whole file coherent; no bandaids.

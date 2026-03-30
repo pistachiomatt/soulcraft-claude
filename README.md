@@ -1,12 +1,12 @@
 # Soulcraft
 
-An AI prompt engineer with judgment. You define the behaviors you want your AI to embody — warmth, directness, proactivity — and Soulcraft Claude does the heavy lifting: generating eval scenarios, running multi-turn conversations with a simulated human, and iterating agentically until the AI meets the vision. The human brings taste and intuition. The AI brings craft.
+An AI prompt engineer where you bring taste and vision, and it crafts. You define the behaviors you want your AI to embody — warmth, directness, proactivity — and Soulcraft Claude does the heavy lifting: generating eval scenarios, running multi-turn conversations with a simulated human, and iterating agentically until the AI meets the vision. 
 
 <div align="center">
 
 [![Video Walkthrough](https://img.youtube.com/vi/Kk1dq2lQnCw/maxresdefault.jpg)](https://youtu.be/Kk1dq2lQnCw)
 
-[Problem](https://youtu.be/Kk1dq2lQnCw?t=48) · [Why 2026](https://youtu.be/Kk1dq2lQnCw?t=85) · [Solution](https://youtu.be/Kk1dq2lQnCw?t=124) · [Principles](https://youtu.be/Kk1dq2lQnCw?t=208) · [Demo](https://youtu.be/Kk1dq2lQnCw?t=249)
+[Problem](https://youtu.be/Kk1dq2lQnCw?t=48) · [Why 2026](https://youtu.be/Kk1dq2lQnCw?t=85) · [Solution](https://youtu.be/Kk1dq2lQnCw?t=124) · [Principles](https://youtu.be/Kk1dq2lQnCw?t=208) · [Demo](https://youtu.be/Kk1dq2lQnCw?t=249) | [📖Rationale & transcript](./docs/RATIONALE.md)
 
 </div>
 

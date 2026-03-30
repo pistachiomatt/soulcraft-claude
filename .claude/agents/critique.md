@@ -31,14 +31,14 @@ git diff HEAD~1              # What are the actual changes?
 
 Before critiquing, explore:
 
-- Read CLAUDE.md for the design philosophy
-- Read ARCHITECTURE.md for how systems connect
+- Read CLAUDE.dev.md for the design philosophy
+- Consider the holistic architecture
 - Look at sibling files to understand local conventions
 - Grep for similar patterns elsewhere
 
 ### 3. Walk the Data Flow
 
-This is your most important step. For every feature touched by the diff, trace the full path a request takes through the system.
+For every feature touched by the diff, trace the full path a request takes through the system.
 
 **Find the entry point.** What triggers this code? A tRPC route, an adapter handler, a cron job, a webhook, a user action in the UI? Start there.
 
@@ -50,20 +50,7 @@ This is your most important step. For every feature touched by the diff, trace t
 
 **Read every function you encounter.** Don't assume — open the file and verify. If `handleMessage()` calls `triggerResponse()` which calls `getOrCreateSession()`, read all three. Check that the output of each function matches what the next function expects as input.
 
-**Look for gaps:**
-
-- A field added to the DB schema but never populated by the code that writes to it
-- A new parameter accepted by a function but never passed by its callers
-- A return value that changed shape but downstream consumers still expect the old shape
-- Error paths that swallow failures silently (try/catch with no re-throw or logging)
-- Race conditions where two async operations assume exclusive access
-
-**Look for disconnects:**
-
-- Frontend calls a tRPC route → does the route return what the frontend expects?
-- Adapter receives a webhook → does the handler parse the payload correctly?
-- Agent session writes to DB → does the query match the schema?
-- A new tool is registered → is it in the allowed list? Does the prompt describe it?
+**Look for gaps.** At every boundary, check: does what one side produces match what the other side expects? Fields written but never read, parameters accepted but never passed, return shapes that changed without updating consumers, error paths that silently swallow failures, async operations that assume exclusive access.
 
 The goal is to simulate the system running. You are the computer. Walk the code path with a concrete example input and verify that the output at each stage is correct and connected to the next.
 
@@ -92,20 +79,15 @@ The issue: <why this is actually a problem>
 
 Do not suggest solutions. The developer will determine solutions.
 
-## What to Look For
-
-- Patterns & Consistency
-- CLAUDE.md Violations
-- Whether ARCHITECTURE.md has become stale and needs updating (remember this is for high-level repo design, not minor details.)
-- Broken connections (function A's output doesn't match function B's expected input)
-- Dead weight
-- Inelegant eng design or bandaid solutions
-- Redundant or deeply nested code or opportunities to refactor
-- Grossly inefficient database queries, like * selects or n+1 queries
-- BOTH unit and integration tests are written and are non-happy path (test real world messiness)
-
-## Output
-
-If you find issues, list them by priority with your investigation notes.
-
 If no issues, say what you checked and what patterns you verified against. Show that you actually explored, don't just say "looks good."
+
+## Suggestions For Focus Areas
+
+- Patterns & consistency
+- CLAUDE.dev.md violations
+- Broken connections across boundaries
+- Dead weight
+- Bandaid solutions that patch symptoms instead of causes
+- Unnecessary complexity or redundancy
+- Operations that scale with data size rather than intent
+- Tests that confirm assumptions instead of challenging them — unit tests that mock everything prove the code does what it says, not that it works. Look for: missing integration tests, only-happy-path coverage, mocks that hide the real failure modes
